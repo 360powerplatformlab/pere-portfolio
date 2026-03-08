@@ -133,6 +133,18 @@ font-size:14px;
 <div class="card">
 
 <h2>Get In Touch</h2>
+<form action="/send" method="POST">
+  <label>Name:</label>
+  <input type="text" name="name" required>
+  
+  <label>Email:</label>
+  <input type="email" name="email" required>
+  
+  <label>Message:</label>
+  <textarea name="message" required></textarea>
+  
+  <button type="submit">Send</button>
+</form>
 
 <p>If you would like to discuss automation projects or collaboration opportunities, feel free to reach out.</p>
 
