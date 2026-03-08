@@ -18,7 +18,7 @@ SMTP_PORT = 465
 # ROUTES
 # ==========================
 
-@app.route('/send')
+@app.route('/')
 def index():
     return render_template('contact.html')  # Make sure contact.html is in "templates/" folder
 
