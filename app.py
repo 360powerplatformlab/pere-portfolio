@@ -10,7 +10,7 @@ app.secret_key = os.urandom(24)  # Needed for flash messages
 # CONFIGURATION
 # ==========================
 EMAIL_ADDRESS = "wperestar@yahoo.com"       # Sender email (also your inbox)
-EMAIL_PASSWORD = "xctysilpsygwjlhj"          # Use app password for Gmail/Outlook
+EMAIL_PASSWORD = "xcty silp sygw jlhj"          # Use app password for Gmail/Outlook
 SMTP_SERVER = "imap.mail.yahoo.com"                # Change if using Outlook or others
 SMTP_PORT = 465
 
@@ -18,7 +18,7 @@ SMTP_PORT = 465
 # ROUTES
 # ==========================
 
-@app.route('/')
+@app.route('/send')
 def index():
     return render_template('contact.html')  # Make sure contact.html is in "templates/" folder
 
