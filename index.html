@@ -1,30 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pere | Power Platform Portfolio</title>
-  <style>
-    body { font-family: Arial; max-width: 900px; margin: auto; padding: 40px; }
-    h1 { color: #0078D4; }
-    .project { border-left: 4px solid #0078D4; padding-left: 15px; margin-bottom: 30px; }
-    a { color: #0078D4; text-decoration: none; }
-  </style>
+<meta charset="UTF-8">
+<title>Power Platform Automation Portfolio</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f8;
+color:#333;
+}
+
+header{
+background:#0078D4;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:36px;
+}
+
+header p{
+font-size:18px;
+margin-top:10px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+h2{
+color:#0078D4;
+margin-bottom:20px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+transition:transform 0.2s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-top:0;
+color:#0078D4;
+}
+
+.card p{
+font-size:14px;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+text-decoration:none;
+color:white;
+background:#0078D4;
+padding:8px 15px;
+border-radius:4px;
+font-size:14px;
+}
+
+.about{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+}
+
+.contact{
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#eaeaea;
+font-size:14px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>My Power Platform Portfolio</h1>
-<p>Microsoft Power Platform specialist focused on Power Automate, SharePoint, and Microsoft 365 automation.</p>
+<header>
 
-<div class="project">
-  <h2>Leave Management Automation</h2>
-  <p>Power Automate workflow validating leave balance, excluding weekends and public holidays, and updating Excel records.</p>
-  <a href="https://360powerplatformlab.github.io/leave-management-automation/">View Project</a>
+<h1>Power Platform Automation Portfolio</h1>
+
+<p>Microsoft Power Platform Specialist | Power Automate | Power Apps | SharePoint</p>
+
+<p>
+Building automation solutions that streamline business processes and improve operational efficiency.
+</p>
+
+</header>
+
+
+<div class="container">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>Leave Management Automation</h3>
+
+<p>
+Automated leave management workflow that validates leave balance, excludes weekends and public holidays, and updates employee leave records automatically.
+</p>
+
+<a href="https://github.com/YOUR-USERNAME/leave-management-automation">
+View Project
+</a>
+
 </div>
 
-<div class="project">
-  <h2>Email Intake & Reporting Automation</h2>
-  <p>Automated Outlook email ingestion into SharePoint with structured metadata and Power BI reporting.</p>
+
+<div class="card">
+
+<h3>Expense Approval Automation</h3>
+
+<p>
+Approval workflow built with Power Automate and SharePoint that routes expense requests through multi-level approval processes with automated notifications.
+</p>
+
+<a href="https://github.com/YOUR-USERNAME/expense-approval-automation">
+View Project
+</a>
+
 </div>
+
+
+<div class="card">
+
+<h3>Expense Claim Automation</h3>
+
+<p>
+End-to-end expense claim solution built with Power Apps, SharePoint and Power Automate to simplify submission, approval and tracking of employee expenses.
+</p>
+
+<a href="https://github.com/YOUR-USERNAME/expense-claim-automation">
+View Project
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="container">
+
+<h2>About This Portfolio</h2>
+
+<div class="about">
+
+<p>
+This website showcases automation solutions I have built using the Microsoft Power Platform.
+</p>
+
+<p>
+My focus is on designing reliable, scalable workflows that simplify complex business processes and improve operational efficiency.
+</p>
+
+<p>
+I specialize in building solutions that integrate:
+</p>
+
+<ul>
+<li>Power Automate</li>
+<li>Power Apps</li>
+<li>SharePoint Online</li>
+<li>Microsoft 365</li>
+</ul>
+
+<p>
+These solutions demonstrate how organizations can automate approvals, manage business processes, and improve data visibility using the Microsoft ecosystem.
+</p>
+
+<div class="contact">
+
+<h3>Contact</h3>
+
+<p>
+GitHub: https://github.com/YOUR-USERNAME
+</p>
+
+<p>
+LinkedIn: Add your LinkedIn link here
+</p>
+
+<p>
+Email: your-email@example.com
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<p>© 2026 Power Platform Automation Portfolio</p>
+
+</footer>
 
 </body>
+
 </html>
